@@ -4,8 +4,9 @@
 
             <div class="message">{{messageData.content}}</div>
 
-     
-            <img class="row link-preview-img" *ngIf="metaOgImage" [src]="metaOgImage"  alt="avatar" >
+            <a  [ngClass]="{'justify-content-end' :type=='in'}" class="row "[href]="messageData.content" *ngIf="metaOgImage" >
+                <img class="link-preview-img" *ngIf="metaOgImage" [src]="metaOgImage"  alt="avatar" >
+            </a>
    
             
             <div class="row link-preview-info">
