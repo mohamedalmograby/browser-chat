@@ -1,0 +1,39 @@
+
+.user-preview {
+    padding: 10px 15px;
+    list-style: none;
+    border-radius: 3px;
+    overflow: auto !important;
+}
+
+.user-preview:hover {
+    background: #efefef;
+    cursor: pointer
+}
+
+.user-preview.active {
+    background: #efefef
+}
+
+.user-preview .name {
+    font-size: 15px
+}
+.user-preview img {
+    width: 45px;
+    border-radius: 50%
+}
+
+.user-preview img {
+    float: left;
+    border-radius: 50%
+}
+
+.user-preview .about {
+    float: left;
+    padding-left: 8px
+}
+
+.user-preview .status {
+    color: #999;
+    font-size: 13px
+}

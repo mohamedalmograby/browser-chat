@@ -1,0 +1,7 @@
+<div *ngIf="user" class="container user-preview" (click)="changeReceiverId()" >
+    <img [src]="user.img_src" alt="avatar">
+    <div class="about">
+        <div class="name">{{user.name}}</div>
+        <div class="status"> <i class="fa fa-circle offline"></i> left 7 mins ago </div>                                            
+    </div>
+</div>

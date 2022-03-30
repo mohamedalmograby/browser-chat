@@ -1,0 +1,11 @@
+<div class="container main">
+    <div class="chat-header clearfix">
+        <div class="row">
+            <app-user-preview  [user]="receiver"></app-user-preview>
+
+        </div>
+    </div>
+    <div class="col chat-history">
+        <app-message *ngFor="let message of messages" [messageData]="message" class="row" ></app-message>
+    </div>
+</div>

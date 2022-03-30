@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="row">
+        <div class="col-3">
+            <app-chat-list (onReceiverIdChange)="changeReceiverId($event)" [users]="users"></app-chat-list>
+        </div>
+        <div class="col-9">
+            <div class="row">
+                <app-chat-body [receiverId]="receiverId" class="chat-body"></app-chat-body>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <app-chat-box [receiverId]="receiverId" ></app-chat-box>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

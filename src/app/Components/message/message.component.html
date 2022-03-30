@@ -1,0 +1,29 @@
+<div  [ngClass]="type" class="container main">
+
+    <div class="row" [ngClass]="{'justify-content-end' :type=='in'}" >
+
+            <div class="message">{{messageData.content}}</div>
+
+     
+            <img class="row link-preview-img" *ngIf="metaOgImage" [src]="metaOgImage"  alt="avatar" >
+   
+            
+            <div class="row link-preview-info">
+                <div class="col-12">
+                    <h6 *ngIf="LinkDomainName" >{{LinkDomainName}}</h6>
+                </div>
+                <div class="col-12">
+                    <h6 *ngIf="metaOgTitle" >{{metaOgTitle}}</h6>
+                </div>
+            </div>
+
+    </div>
+
+    <div class="row"  [ngClass]="{'justify-content-end' :type=='in'}" > 
+        <div class="message-data">
+            <span class="message-data-time">{{messageData.time}}</span>
+        </div>
+    </div>
+
+</div>
+    

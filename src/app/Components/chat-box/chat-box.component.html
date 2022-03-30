@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="row">
+        <div class="col-10">
+            <input  [(ngModel)]="newMessage" (keyup.enter)="sendMessage()" type="text" class="input" placeholder="Enter text here...">                                    
+        </div>
+
+        <div class="col-2">
+            <button type="button" class="btn btn-success" (click)="sendMessage()">send</button>
+        </div>
+    </div>
+</div>

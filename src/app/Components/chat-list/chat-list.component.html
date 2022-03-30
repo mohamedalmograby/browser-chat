@@ -1,0 +1,8 @@
+<div id="plist" class="people-list">
+    <div class="col">
+        <div *ngFor="let user of users" class="row">
+            <app-user-preview (onReceiverIdChange)="changeReceiverId($event)" [user]="user"></app-user-preview>
+        </div>
+
+    </div>
+</div>

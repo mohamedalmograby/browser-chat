@@ -1,0 +1,44 @@
+.main {
+   margin-top: 7px;
+   margin-bottom: 7px; 
+}
+.message-data img {
+    border-radius: 40px;
+    width: 40px
+}
+.message-data-time {
+    color: #434651;
+}
+
+.message {
+    width: 60%;
+    color: #444;
+    padding: 18px 20px;
+    line-height: 16px;
+    font-size: 16px;
+    border-radius: 7px;
+
+    word-wrap: break-word;
+}
+
+
+
+
+.out .message{
+    background: #c9f3b7;
+}
+
+
+
+.in .message{
+    background: #b4e1eb;
+}
+
+.link-preview-img{
+    width: 60%;
+}
+
+.link-preview-info{
+    background: #acacac33;
+    width: 60%;
+}
